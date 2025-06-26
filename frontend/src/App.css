@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+  /* Gradient background with theme colors */
+  background: linear-gradient(135deg, #0B1D51 0%, #725CAD 35%, #8CCDEB 70%, #FFE3A9 100%);
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}
