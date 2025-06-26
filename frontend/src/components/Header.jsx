@@ -117,7 +117,7 @@ const Header = () => {
           style={{
             padding: "0.6rem 1.5rem",
             background: "linear-gradient(90deg, #6C63FF 0%, #FFD700 100%)",
-            color: "#fff",
+            color: "black",
             border: "none",
             borderRadius: "30px",
             fontWeight: "bold",

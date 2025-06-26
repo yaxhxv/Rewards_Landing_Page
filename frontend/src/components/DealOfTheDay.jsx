@@ -7,7 +7,13 @@ const DealOfTheDay = () => {
   const year = date.getFullYear();
   const formattedDate = `${day} / ${month} / ${year}`;
   return (
-    <section className="w-full flex flex-col items-center py-10 bg-black">
+    <section
+      className="w-full flex flex-col items-center py-10 bg-gradient-to-br from-[#0B1D51] via-[#725CAD] via-60% to-[#8CCDEB] to-90%"
+      style={{
+        backgroundImage:
+          "linear-gradient(135deg, #0B1D51 0%, #725CAD 35%, #8CCDEB 70%, #FFE3A9 100%)",
+      }}
+    >
       {/* Headline and Date */}
       <div className="flex items-center gap-4 mb-6 w-full max-w-xl">
         <h2 className="text-3xl font-extrabold text-[#FFE600] lowercase">
